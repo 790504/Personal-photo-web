@@ -27,7 +27,7 @@ import { Photo } from './types';
 export const PHOTOS: Photo[] = [
   {
     id: 'f1',
-    // 替换这里: url: '/images/mengna.jpg',
+    // 替换这里: url: 'C:\Users\Public\images\mengna.jpg',
     url: 'https://picsum.photos/id/29/1200/1600', 
     title: 'Mona Lisa',
     location: 'Paris, France',
