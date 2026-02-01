@@ -27,13 +27,13 @@ import { Photo } from './types';
 export const PHOTOS: Photo[] = [
   {
     id: 'f1',
-    // 替换这里: url: '/images/你的照片文件名.jpg',
+    // 替换这里: url: '/images/mengna.jpg',
     url: 'https://picsum.photos/id/29/1200/1600', 
-    title: 'High Altitude',
-    location: 'Tibet, China',
+    title: 'Mona Lisa',
+    location: 'Paris, France',
     category: 'domestic',
     period: '2025',
-    exif: { camera: 'Leica M11-P', lens: '35mm APO', aperture: 'f/5.6', shutter: '1/500s', iso: '64' }
+    exif: { camera: 'Leica M11-P', lens: '85mm APO', aperture: 'f/5.6', shutter: '1/500s', iso: '64' }
   },
   {
     id: 'f2',
