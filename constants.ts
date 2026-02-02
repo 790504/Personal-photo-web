@@ -3,11 +3,12 @@ import { Photo } from './types';
 
 /**
  * ==================================================================================
- *  ✅ 摄影作品库 (Updated)
+ *  ✅ 摄影作品库 (Final Fix)
  *  URL 修复说明：
- *  1. 恢复逗号 (,) 和单引号 (') 为直观字符，解决本地文件匹配问题。
- *  2. 保持空格为 %20。
- *  3. 严格匹配截图中的文件名。
+ *  1. St. Patrick's 系列：改为使用截图中的简化文件名 `Dublin1.jpg` 等，避免特殊字符问题。
+ *  2. Saint Sophia：保持逗号原样（不编码），确保匹配 `...Cathedral, Harbin, China...`。
+ *  3. Fireworks：保持复数 `Fireworks`。
+ *  4. 保持空格为 %20。
  * ==================================================================================
  */
 
@@ -165,7 +166,7 @@ export const PHOTOS: Photo[] = [
   },
   {
     id: 'sw-10', url: '/images/Spiez,%20Switzerland2.jpg', title: 'Castle View', location: 'Spiez, Switzerland', category: 'international', period: '2025',
-    exif: { camera: 'Fujifilm XT5', lens: '23mm', aperture: 'f/5.6', shutter: '1/125s', iso: '200' }
+    exif: { camera: 'Fujifilm XT5', lens: '23mm', aperture: 'f/5.6', shutter: '1/250s', iso: '200' }
   },
   {
     id: 'se-1', url: '/images/Stockholm,%20Sweden1.jpg', title: 'Subway Art I', location: 'Stockholm, Sweden', category: 'international', period: '2025',
@@ -194,16 +195,17 @@ export const PHOTOS: Photo[] = [
     id: 'dub-4', url: '/images/Dublin%20Ireland4.jpg', title: 'Irish Pub', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/60s', iso: '800' }
   },
+  // ✅ FIX: Use 'Dublin1/2/3.jpg' which exist in screenshot and avoid special characters in 'St. Patrick's...'
   {
-    id: 'stp-1', url: '/images/St.%20Patrick\'s%20Day%20Dublin1.jpg', title: 'St. Patrick\'s Parade', location: 'Dublin, Ireland', category: 'international', period: '2024',
+    id: 'stp-1', url: '/images/Dublin1.jpg', title: 'St. Patrick\'s Parade', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/4', shutter: '1/500s', iso: '200' }
   },
   {
-    id: 'stp-2', url: '/images/St.%20Patrick\'s%20Day%20Dublin2.jpg', title: 'Green Celebration', location: 'Dublin, Ireland', category: 'international', period: '2024',
+    id: 'stp-2', url: '/images/Dublin2.jpg', title: 'Green Celebration', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/250s', iso: '200' }
   },
   {
-    id: 'stp-3', url: '/images/St.%20Patrick\'s%20Day%20Dublin3.jpg', title: 'Dublin Spirit', location: 'Dublin, Ireland', category: 'international', period: '2024',
+    id: 'stp-3', url: '/images/Dublin3.jpg', title: 'Dublin Spirit', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/100s', iso: '400' }
   },
   {
