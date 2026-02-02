@@ -54,14 +54,32 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'SONY A74', lens: '105mm', aperture: 'f/4', shutter: '1/60s', iso: '100' }
   },
   {
-    id: 'i1',
-    url: 'https://picsum.photos/id/1036/1200/1600',
-    title: 'Nordic Winter',
-    location: 'Tromsø, Norway',
+    id: 'f4',
+    url: 'https://i.ibb.co/R4VcPf5T/aosai.jpg',
+    title: 'Orsay',
+    location: 'Paris, France',
     category: 'international',
-    period: '2024',
-    exif: { camera: 'Hasselblad X2D', lens: '55mm', aperture: 'f/4.0', shutter: '1/1000s', iso: '100' }
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '24-70mm', aperture: 'f/4', shutter: '1/125s', iso: '200' }
   },
+  {
+    id: 'f5',
+    url: 'https://i.ibb.co/hx2FQ0jR/lufugong.jpg',
+    title: 'Louvre',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '24-70mm', aperture: 'f/4', shutter: '1/125s', iso: '200' }
+  },
+  {
+    id: 'f6',
+    url: 'https://i.ibb.co/BHLmnMsY/lufugong2.jpg',
+    title: 'Louvre Pyramid',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '24-70mm', aperture: 'f/4', shutter: '1/125s', iso: '200' }
+  },w
   {
     id: 'd4',
     url: 'https://picsum.photos/id/106/1200/1600',
