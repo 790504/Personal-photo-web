@@ -31,27 +31,27 @@ export const PHOTOS: Photo[] = [
     url: 'https://i.ibb.co/60xBwr3r/mengna.jpg', 
     title: 'Mona Lisa',
     location: 'Paris, France',
-    category: 'domestic',
+    category: 'international',
     period: '2025',
-    exif: { camera: 'SONY A74', lens: '24-105mm', aperture: 'f/5.6', shutter: '1/500s', iso: '64' }
+    exif: { camera: 'SONY A74', lens: '85mm', aperture: 'f/4', shutter: '1/500s', iso: '64' }
   },
   {
     id: 'f2',
-    url: 'https://picsum.photos/id/28/1200/1600',
-    title: 'Silent Forest',
-    location: 'Kyoto, Japan',
+    url: 'https://i.ibb.co/5xY8mFVz/manila.jpg',
+    title: 'Death in Manila',
+    location: 'Paris, France',
     category: 'international',
     period: '2025',
-    exif: { camera: 'Hasselblad X2D', lens: '38mm', aperture: 'f/4', shutter: '1/60s', iso: '100' }
+    exif: { camera: 'SONY A74', lens: '105mm', aperture: 'f/4', shutter: '1/60s', iso: '100' }
   },
   {
-    id: 'd1',
-    url: 'https://picsum.photos/id/1015/1200/1600',
-    title: 'River Valley',
-    location: 'Guilin, China',
-    category: 'domestic',
-    period: '2024',
-    exif: { camera: 'Leica M11', lens: '35mm Summilux', aperture: 'f/2.8', shutter: '1/250s', iso: '100' }
+    id: 'f3',
+    url: 'https://i.ibb.co/S41zgQm3/shuilian.jpg',
+    title: 'Les Nymphéas',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '105mm', aperture: 'f/4', shutter: '1/60s', iso: '100' }
   },
   {
     id: 'i1',
