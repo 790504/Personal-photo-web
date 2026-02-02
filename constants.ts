@@ -24,10 +24,10 @@ import { Photo } from './types';
  * ==================================================================================
  */
 
+
 export const PHOTOS: Photo[] = [
   {
     id: 'f1',
-    // 替换这里: url: 'C:/Users/Public/images/mengna.jpg',
     url: 'https://i.ibb.co/60xBwr3r/mengna.jpg', 
     title: 'Mona Lisa',
     location: 'Paris, France',
@@ -79,68 +79,5 @@ export const PHOTOS: Photo[] = [
     category: 'international',
     period: '2025',
     exif: { camera: 'SONY A74', lens: '24-70mm', aperture: 'f/4', shutter: '1/125s', iso: '200' }
-  },w
-  {
-    id: 'd4',
-    url: 'https://picsum.photos/id/106/1200/1600',
-    title: 'Evening Lights',
-    location: 'Shanghai, China',
-    category: 'domestic',
-    period: '2024',
-    exif: { camera: 'Leica Q2', lens: '28mm Fixed', aperture: 'f/1.7', shutter: '1/125s', iso: '1600' }
-  },
-  {
-    id: 'i3',
-    url: 'https://picsum.photos/id/129/1200/1600',
-    title: 'Parisian Mood',
-    location: 'Paris, France',
-    category: 'international',
-    period: '2024',
-    exif: { camera: 'Leica M10-R', lens: '50mm Noctilux', aperture: 'f/0.95', shutter: '1/4000s', iso: '100' }
-  },
-  {
-    id: 'd2',
-    url: 'https://picsum.photos/id/1039/1200/1600',
-    title: 'Highland Waterfall',
-    location: 'Sichuan, China',
-    category: 'domestic',
-    period: '2023',
-    exif: { camera: 'Sony A7R V', lens: '24-70mm GM', aperture: 'f/8.0', shutter: '1/60s', iso: '200' }
-  },
-  {
-    id: 'i2',
-    url: 'https://picsum.photos/id/103/1200/1600',
-    title: 'Street Life',
-    location: 'Tokyo, Japan',
-    category: 'international',
-    period: '2023',
-    exif: { camera: 'Ricoh GR III', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/125s', iso: '800' }
-  },
-  {
-    id: 'd5',
-    url: 'https://picsum.photos/id/217/1200/1600',
-    title: 'The Solitary',
-    location: 'Inner Mongolia',
-    category: 'domestic',
-    period: '2023',
-    exif: { camera: 'Canon R5', lens: '85mm f/1.2', aperture: 'f/1.2', shutter: '1/2000s', iso: '50' }
-  },
-  {
-    id: 'i6',
-    url: 'https://picsum.photos/id/215/1200/1600',
-    title: 'Alpine Lake',
-    location: 'Swiss Alps',
-    category: 'international',
-    period: '2023',
-    exif: { camera: 'Fujifilm XT-5', lens: '23mm', aperture: 'f/8', shutter: '1/500s', iso: '160' }
-  },
-   {
-    id: 'd3',
-    url: 'https://picsum.photos/id/1043/1200/1600',
-    title: 'Ancient Structure',
-    location: 'Xi\'an, China',
-    category: 'domestic',
-    period: '2023',
-    exif: { camera: 'Fujifilm GFX 100', lens: '45mm', aperture: 'f/4.0', shutter: '1/500s', iso: '400' }
   }
 ];
