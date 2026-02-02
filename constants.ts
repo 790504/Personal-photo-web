@@ -79,5 +79,41 @@ export const PHOTOS: Photo[] = [
     category: 'international',
     period: '2025',
     exif: { camera: 'SONY A74', lens: '24-70mm', aperture: 'f/4', shutter: '1/125s', iso: '200' }
+  },
+  {
+    id: 'f7',
+    url: 'https://i.ibb.co/HDRPw3dz/lufugong3.jpg',
+    title: 'Louvre Gallery',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '16-35mm', aperture: 'f/5.6', shutter: '1/160s', iso: '400' }
+  },
+  {
+    id: 'f8',
+    url: 'https://i.ibb.co/M57T98LK/kaixuanmen1.jpg',
+    title: 'Arc de Triomphe',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '24-70mm', aperture: 'f/8', shutter: '1/250s', iso: '100' }
+  },
+  {
+    id: 'f9',
+    url: 'https://i.ibb.co/CpTzCrGN/aifeier1.jpg',
+    title: 'Eiffel Tower',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '70-200mm', aperture: 'f/2.8', shutter: '1/800s', iso: '100' }
+  },
+  {
+    id: 'f10',
+    url: 'https://i.ibb.co/JRScJVZb/Institut-de-France.jpg',
+    title: 'Institut de France',
+    location: 'Paris, France',
+    category: 'international',
+    period: '2025',
+    exif: { camera: 'SONY A74', lens: '50mm', aperture: 'f/1.8', shutter: '1/1000s', iso: '100' }
   }
 ];
