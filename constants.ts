@@ -128,9 +128,9 @@ export const PHOTOS: Photo[] = [
     id: 'fr-16', url: '/images/shuilian.jpg', title: 'Les Nymphéas', location: 'Orangerie, Paris', category: 'international', period: '2025',
     exif: { camera: 'SONY A7M4', lens: '24mm', aperture: 'f/4', shutter: '1/80s', iso: '200' }
   },
-  // Switzerland / Norway / Sweden (Moved to 2025)
+  // Switzerland / Norway / Sweden
   {
-    id: 'sw-1', url: '/images/Bern,%20Switzerland.jpg', title: 'Old City', location: 'Bern, Switzerland', category: 'international', period: '2025',
+    id: 'sw-1', url: '/images/Bern%2C%20Switzerland.jpg', title: 'Old City', location: 'Bern, Switzerland', category: 'international', period: '2025',
     exif: { camera: 'Fujifilm XT5', lens: '23mm', aperture: 'f/5.6', shutter: '1/200s', iso: '160' }
   },
   {
@@ -162,7 +162,7 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'Fujifilm XT5', lens: '18-55mm', aperture: 'f/8', shutter: '1/500s', iso: '200' }
   },
   {
-    id: 'sw-6', url: '/images/Lucerne,%20Switzerland.jpg', title: 'Lion Monument', location: 'Lucerne, Switzerland', category: 'international', period: '2025',
+    id: 'sw-6', url: '/images/Lucerne%2C%20Switzerland.jpg', title: 'Lion Monument', location: 'Lucerne, Switzerland', category: 'international', period: '2025',
     exif: { camera: 'Fujifilm XT5', lens: '35mm', aperture: 'f/2', shutter: '1/125s', iso: '400' }
   },
   {
@@ -174,19 +174,19 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'Fujifilm XT5', lens: '23mm', aperture: 'f/5.6', shutter: '1/250s', iso: '160' }
   },
   {
-    id: 'sw-9', url: '/images/Spiez,%20Switzerland.jpg', title: 'Lake Thun', location: 'Spiez, Switzerland', category: 'international', period: '2025',
+    id: 'sw-9', url: '/images/Spiez%2C%20Switzerland.jpg', title: 'Lake Thun', location: 'Spiez, Switzerland', category: 'international', period: '2025',
     exif: { camera: 'Fujifilm XT5', lens: '35mm', aperture: 'f/4', shutter: '1/500s', iso: '160' }
   },
   {
-    id: 'sw-10', url: '/images/Spiez,%20Switzerland2.jpg', title: 'Castle View', location: 'Spiez, Switzerland', category: 'international', period: '2025',
+    id: 'sw-10', url: '/images/Spiez%2C%20Switzerland2.jpg', title: 'Castle View', location: 'Spiez, Switzerland', category: 'international', period: '2025',
     exif: { camera: 'Fujifilm XT5', lens: '23mm', aperture: 'f/5.6', shutter: '1/125s', iso: '200' }
   },
   {
-    id: 'se-1', url: '/images/Stockholm,%20Sweden1.jpg', title: 'Subway Art I', location: 'Stockholm, Sweden', category: 'international', period: '2025',
+    id: 'se-1', url: '/images/Stockholm%2C%20Sweden1.jpg', title: 'Subway Art I', location: 'Stockholm, Sweden', category: 'international', period: '2025',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/60s', iso: '500' }
   },
   {
-    id: 'se-2', url: '/images/Stockholm,%20Sweden2.jpg', title: 'Subway Art II', location: 'Stockholm, Sweden', category: 'international', period: '2025',
+    id: 'se-2', url: '/images/Stockholm%2C%20Sweden2.jpg', title: 'Subway Art II', location: 'Stockholm, Sweden', category: 'international', period: '2025',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/50s', iso: '640' }
   },
 
@@ -209,31 +209,31 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/60s', iso: '800' }
   },
   {
-    id: 'stp-1', url: '/images/St.%20Patrick\'s%20Day%20Dublin1.jpg', title: 'St. Patrick\'s Parade', location: 'Dublin, Ireland', category: 'international', period: '2024',
+    id: 'stp-1', url: '/images/St.%20Patrick%27s%20Day%20Dublin1.jpg', title: 'St. Patrick\'s Parade', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/4', shutter: '1/500s', iso: '200' }
   },
   {
-    id: 'stp-2', url: '/images/St.%20Patrick\'s%20Day%20Dublin2.jpg', title: 'Green Celebration', location: 'Dublin, Ireland', category: 'international', period: '2024',
+    id: 'stp-2', url: '/images/St.%20Patrick%27s%20Day%20Dublin2.jpg', title: 'Green Celebration', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/250s', iso: '200' }
   },
   {
-    id: 'stp-3', url: '/images/St.%20Patrick\'s%20Day%20Dublin3.jpg', title: 'Dublin Spirit', location: 'Dublin, Ireland', category: 'international', period: '2024',
+    id: 'stp-3', url: '/images/St.%20Patrick%27s%20Day%20Dublin3.jpg', title: 'Dublin Spirit', location: 'Dublin, Ireland', category: 'international', period: '2024',
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/100s', iso: '400' }
   },
   {
-    id: 'dc-1', url: '/images/Firework%20Washington,%20D.C1.jpg', title: 'Capital Fireworks I', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-1', url: '/images/Firework%20Washington%2C%20D.C1.jpg', title: 'Capital Fireworks I', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/8', shutter: '2s', iso: '100' }
   },
   {
-    id: 'dc-2', url: '/images/Firework%20Washington,%20D.C2.jpg', title: 'Capital Fireworks II', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-2', url: '/images/Firework%20Washington%2C%20D.C2.jpg', title: 'Capital Fireworks II', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/11', shutter: '3s', iso: '100' }
   },
   {
-    id: 'dc-3', url: '/images/Firework%20Washington,%20D.C3.jpg', title: 'Capital Fireworks III', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-3', url: '/images/Firework%20Washington%2C%20D.C3.jpg', title: 'Capital Fireworks III', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/8', shutter: '2.5s', iso: '100' }
   },
   {
-    id: 'dc-4', url: '/images/Firework%20Washington,%20D.C4.jpg', title: 'Monument Glow', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-4', url: '/images/Firework%20Washington%2C%20D.C4.jpg', title: 'Monument Glow', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/5.6', shutter: '1s', iso: '400' }
   },
   // Iceland
@@ -278,15 +278,15 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'SONY A7R5', lens: '50mm', aperture: 'f/2.8', shutter: '1/800s', iso: '100' }
   },
   {
-    id: 'aurora-1', url: '/images/jiguang1.jpg', title: 'Aurora I', location: 'Iceland', category: 'international', period: '2025',
+    id: 'aurora-1', url: '/images/jiguang1.jpg', title: 'Aurora I', location: 'Iceland', category: 'international', period: '2024',
     exif: { camera: 'SONY A7R5', lens: '14mm', aperture: 'f/1.8', shutter: '4s', iso: '3200' }
   },
   {
-    id: 'aurora-2', url: '/images/jiguang2.jpg', title: 'Aurora II', location: 'Iceland', category: 'international', period: '2025',
+    id: 'aurora-2', url: '/images/jiguang2.jpg', title: 'Aurora II', location: 'Iceland', category: 'international', period: '2024',
     exif: { camera: 'SONY A7R5', lens: '14mm', aperture: 'f/1.8', shutter: '5s', iso: '3200' }
   },
   {
-    id: 'aurora-3', url: '/images/jiguang3.jpg', title: 'Aurora III', location: 'Iceland', category: 'international', period: '2025',
+    id: 'aurora-3', url: '/images/jiguang3.jpg', title: 'Aurora III', location: 'Iceland', category: 'international', period: '2024',
     exif: { camera: 'SONY A7R5', lens: '20mm', aperture: 'f/1.8', shutter: '3.2s', iso: '2500' }
   },
 
@@ -336,15 +336,15 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/5.6', shutter: '1/100s', iso: '100' }
   },
   {
-    id: 'cn-12', url: '/images/Saint%20Sophia%20Cathedral,%20Harbin%20China1.jpg', title: 'Saint Sophia I', location: 'Harbin, China', category: 'domestic', period: '2023',
+    id: 'cn-12', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%20China1.jpg', title: 'Saint Sophia I', location: 'Harbin, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/4', shutter: '1/200s', iso: '100' }
   },
   {
-    id: 'cn-13', url: '/images/Saint%20Sophia%20Cathedral,%20Harbin%20China2.jpg', title: 'Saint Sophia II', location: 'Harbin, China', category: 'domestic', period: '2023',
+    id: 'cn-13', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%20China2.jpg', title: 'Saint Sophia II', location: 'Harbin, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/4', shutter: '1/160s', iso: '100' }
   },
   {
-    id: 'cn-14', url: '/images/Saint%20Sophia%20Cathedral,%20Harbin%20China3.jpg', title: 'Saint Sophia Night', location: 'Harbin, China', category: 'domestic', period: '2023',
+    id: 'cn-14', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%20China3.jpg', title: 'Saint Sophia Night', location: 'Harbin, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/2.8', shutter: '1/60s', iso: '800' }
   },
   {
