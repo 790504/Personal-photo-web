@@ -3,27 +3,14 @@ import { Photo } from './types';
 
 /**
  * ==================================================================================
- *  如何替换为你自己的照片 (HOW TO USE YOUR OWN PHOTOS)
- * ==================================================================================
- * 
- * 1. 在项目根目录下创建一个名为 'public' 的文件夹 (如果还没有的话)。
- *    Create a folder named 'public' in your project root.
- * 
- * 2. 在 'public' 文件夹内创建一个名为 'images' 的文件夹。
- *    Create a folder named 'images' inside 'public'.
- * 
- * 3. 将你的照片文件 (例如: my-photo.jpg) 复制到 'public/images/' 文件夹中。
- *    Copy your photo files into 'public/images/'.
- * 
- * 4. 修改下方的 PHOTOS 数组，将 'url' 替换为 '/images/文件名.jpg'。
- *    Update the 'url' field below to '/images/your-filename.jpg'.
- * 
- *    例子 (Example):
- *    url: '/images/tibet-mountains.jpg',
- * 
+ *  ✅ 摄影作品库 (Updated)
+ *  URL 编码修复说明：
+ *  空格 -> %20
+ *  逗号 (,) -> %2C
+ *  单引号 (') -> %27
+ *  特殊字符 (í) -> %C3%AD
  * ==================================================================================
  */
-
 
 export const PHOTOS: Photo[] = [
   // --- 2025: GLOBAL (Abu Dhabi, Europe) ---
@@ -221,19 +208,19 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'Ricoh GR3', lens: '18.3mm', aperture: 'f/2.8', shutter: '1/100s', iso: '400' }
   },
   {
-    id: 'dc-1', url: '/images/Firework%20Washington%2C%20D.C1.jpg', title: 'Capital Fireworks I', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-1', url: '/images/Fireworks%20Washington%2C%20D.C1.jpg', title: 'Capital Fireworks I', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/8', shutter: '2s', iso: '100' }
   },
   {
-    id: 'dc-2', url: '/images/Firework%20Washington%2C%20D.C2.jpg', title: 'Capital Fireworks II', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-2', url: '/images/Fireworks%20Washington%2C%20D.C2.jpg', title: 'Capital Fireworks II', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/11', shutter: '3s', iso: '100' }
   },
   {
-    id: 'dc-3', url: '/images/Firework%20Washington%2C%20D.C3.jpg', title: 'Capital Fireworks III', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-3', url: '/images/Fireworks%20Washington%2C%20D.C3.jpg', title: 'Capital Fireworks III', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/8', shutter: '2.5s', iso: '100' }
   },
   {
-    id: 'dc-4', url: '/images/Firework%20Washington%2C%20D.C4.jpg', title: 'Monument Glow', location: 'Washington, D.C.', category: 'international', period: '2024',
+    id: 'dc-4', url: '/images/Fireworks%20Washington%2C%20D.C4.jpg', title: 'Monument Glow', location: 'Washington, D.C.', category: 'international', period: '2024',
     exif: { camera: 'Sony A7M4', lens: '24-70mm', aperture: 'f/5.6', shutter: '1s', iso: '400' }
   },
   // Iceland
@@ -320,11 +307,11 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/4', shutter: '1/30s', iso: '1200' }
   },
   {
-    id: 'cn-8', url: '/images/huanghelou%20Wuhan%20China.jpg', title: 'Yellow Crane Tower', location: 'Wuhan, China', category: 'domestic', period: '2023',
+    id: 'cn-8', url: '/images/huanghelou%20Wuhan1%20China.jpg', title: 'Yellow Crane Tower', location: 'Wuhan, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/8', shutter: '1/250s', iso: '100' }
   },
   {
-    id: 'cn-9', url: '/images/huanghelou%20Wuhan%20China2.jpg', title: 'Yellow Crane Detail', location: 'Wuhan, China', category: 'domestic', period: '2023',
+    id: 'cn-9', url: '/images/huanghelou%20Wuhan2%20China.jpg', title: 'Yellow Crane Detail', location: 'Wuhan, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '70-200mm', aperture: 'f/5.6', shutter: '1/500s', iso: '100' }
   },
   {
