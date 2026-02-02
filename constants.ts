@@ -28,7 +28,7 @@ export const PHOTOS: Photo[] = [
   {
     id: 'f1',
     // 替换这里: url: 'C:/Users/Public/images/mengna.jpg',
-    url: 'https://ibb.co/zhcj4tFQ', 
+    url: 'https://i.ibb.co/60xBwr3r/mengna.jpg', 
     title: 'Mona Lisa',
     location: 'Paris, France',
     category: 'domestic',
