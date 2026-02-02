@@ -323,15 +323,15 @@ export const PHOTOS: Photo[] = [
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/5.6', shutter: '1/100s', iso: '100' }
   },
   {
-    id: 'cn-12', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%20China1.jpg', title: 'Saint Sophia I', location: 'Harbin, China', category: 'domestic', period: '2023',
+    id: 'cn-12', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%2C%20China1.jpg', title: 'Saint Sophia I', location: 'Harbin, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/4', shutter: '1/200s', iso: '100' }
   },
   {
-    id: 'cn-13', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%20China2.jpg', title: 'Saint Sophia II', location: 'Harbin, China', category: 'domestic', period: '2023',
+    id: 'cn-13', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%2C%20China2.jpg', title: 'Saint Sophia II', location: 'Harbin, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/4', shutter: '1/160s', iso: '100' }
   },
   {
-    id: 'cn-14', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%20China3.jpg', title: 'Saint Sophia Night', location: 'Harbin, China', category: 'domestic', period: '2023',
+    id: 'cn-14', url: '/images/Saint%20Sophia%20Cathedral%2C%20Harbin%2C%20China3.jpg', title: 'Saint Sophia Night', location: 'Harbin, China', category: 'domestic', period: '2023',
     exif: { camera: 'SONY A7M4', lens: '24-70mm', aperture: 'f/2.8', shutter: '1/60s', iso: '800' }
   },
   {
