@@ -28,12 +28,12 @@ export const PHOTOS: Photo[] = [
   {
     id: 'f1',
     // 替换这里: url: 'C:/Users/Public/images/mengna.jpg',
-    url: '/images/mengna.jpg', 
+    url: 'https://ibb.co/zhcj4tFQ', 
     title: 'Mona Lisa',
     location: 'Paris, France',
     category: 'domestic',
     period: '2025',
-    exif: { camera: 'Leica M11-P', lens: '85mm APO', aperture: 'f/5.6', shutter: '1/500s', iso: '64' }
+    exif: { camera: 'SONY A74', lens: '24-105mm', aperture: 'f/5.6', shutter: '1/500s', iso: '64' }
   },
   {
     id: 'f2',
